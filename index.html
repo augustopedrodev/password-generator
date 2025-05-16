@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./favicon/download.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Gerador de Senhas</h1>
+      </header>
+
+      <main>
+        <section id="text">
+          <p>
+            Chega de usar senhas fracas e não seguras! Proteja sua privacidade e
+            segurança usando o gerador de senha automático.
+          </p>
+        </section>
+
+        <section id="password-generator">
+          <form class="password-generator">
+            
+            <div>
+              <label for="tamanho">Tamanho (de 4 a 20 digitos)</label>
+              <input type="number" id="tamanho" required min="4" max="20" />
+            </div>
+
+            <div>
+              <label for="generated-password"
+                ><i class="fa-solid fa-lock">:</i></label
+              >
+              <input
+                type="text"
+                id="generated-password"
+                readonly
+                placeholder="125@#F8A8"
+              />
+            </div>
+
+            <div>
+                <input type="submit" value="Gere sua Senha" />
+                <button id="copy-btn" type="button"><i class="fa-solid fa-copy"></i></button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

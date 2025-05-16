@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-size: 20px;
+    line-height: 35px;
+    background-color: rgb(36,36,36);
+    color: #fff;
+}
+
+.container {
+    padding: 32px;
+    min-height: 500px;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(45,45,45);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(75, 145, 95, 0.5);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+header {
+    margin: 24px;
+}
+
+#text {
+    margin: 0px 24px ;
+    font-size: 18px;
+}
+
+form {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 16px;
+}
+
+form div label {
+    font-size: 18px;
+}
+
+form div input[type = "text"], form div input[type = "number"] {
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+input {
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(75, 145, 95);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(75, 75, 75);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+input:hover {
+    width: 160px;
+    height: 55px;
+    background-color: rgb(93, 170, 113);
+}
+
+button:hover {
+    width: 70px;
+    height: 55px;
+    background-color: rgb(90, 90, 90);
+}
+
+#tamanho {
+    width: 80px;
+    height: 30px;
+}
+
+#generated-password {
+    height: 30px;
+    width: 250px;
+}
