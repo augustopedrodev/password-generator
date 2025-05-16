@@ -34,3 +34,9 @@ O objetivo é gerar senhas seguras e padronizadas para o dia a dia de cadastros 
 ## 👤 Autor
 
 - [@augustopedrodev](https://github.com/augustopedrodev)
+
+---
+
+## 🌐 Demonstração
+
+Acesse o projeto online: [password-generator-apd.netlify.app](https://password-generator-apd.netlify.app)
